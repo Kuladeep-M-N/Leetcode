@@ -5,9 +5,7 @@ class Solution:
             elt = i
             if elt == "":
                 return elt
-        if len(strs) == 0:
-            return st
-        elif len(strs)==1:
+        if len(strs)==1:
             return strs[0]
         elif len(strs)!=0:
             mi = min(len(s) for s in strs)
