@@ -16,7 +16,7 @@ class Solution:
                         return st
                 st += res
             return st
-        return ""
+        
 
 
 
