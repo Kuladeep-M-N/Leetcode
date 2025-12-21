@@ -7,7 +7,7 @@ class Solution:
                 return elt
         if len(strs)==1:
             return strs[0]
-        elif len(strs)!=0:
+        else:
             mi = min(len(s) for s in strs)
             for i in range(mi):
                 res = strs[0][i]
@@ -16,8 +16,7 @@ class Solution:
                         return st
                 st += res
             return st
-        else:
-            return ""
+        return ""
 
 
 
